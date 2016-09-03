@@ -1,0 +1,29 @@
+main {
+    background: #ccc;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -200PX;
+    /*transform: translate(-50%, -50%);*/
+}
+
+
+.top_left {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #fc0;
+    border-radius:0 0 50px 0;
+}
+
+.bottom_right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    width: 50px;
+    background: #fc0;
+    border-radius:50px 0 0 0;
+}
