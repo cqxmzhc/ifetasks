@@ -1,0 +1,32 @@
+body {
+    margin: 0px auto;
+}
+
+/*header*/
+header {
+    padding-left: 150px;
+    padding-right: 30px;
+
+    position: relative;
+}
+header>div {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 6px;
+    right: 104px;
+}
+
+header>ul>li {
+    float: right;
+    margin-left: 35px;
+}
+
+header>ul .first_li {
+    border-bottom: 3px solid red;
+    padding: 0 15px 10px 15px;
+    /*padding-bottom: 10px;*/
+}
